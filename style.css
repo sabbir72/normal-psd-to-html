@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+     /* background-color: #81d4fa ; */
+}
+.sun{
+    position: absolute;
+ 
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #f39222;
+}
+.piramit{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 250px solid #215e21;
+    margin-left: 45%;
+    margin-top: 10%
+}
+.pira{
+    display: flex;
+}
+.piramit1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 230px solid #215e21;
+    margin-left: 57%;
+    margin-top: 15%;
+}
+.piramit2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 246px solid #215e21;
+    margin-left: 68%;
+    margin-top: 12%;
+}
+.piramit3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 226px solid #215e21;
+    margin-left: 56%;
+    margin-top: 12%;
+}
+.piramit4{
+  width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 450px solid #215e21;
+    border-bottom: 1px solid transparent;
+    margin-left: 7%;
+    margin-top: 14%;
+}
+.river{
+    height: 17rem;
+    width: 100%;
+    background-color: #03a9f4;
+    position: absolute;
+    top: 60%;
+}
